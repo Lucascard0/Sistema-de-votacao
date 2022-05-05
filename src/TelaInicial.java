@@ -95,9 +95,9 @@ public class TelaInicial extends JFrame implements ActionListener {
                 vrCdt2++;
                 vrTotal++;
             }
-
+            
             cxVoto.setText("");
-            //cxVoto.setText(Integer.toString(vrVoto));
+            
         } else if (e.getActionCommand().equals("Apuração dos votos")) {
 
             RsTotal.setText(Integer.toString(vrTotal));
